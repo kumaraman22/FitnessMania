@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #eb7a1e;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .logo-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #FFD700; /* Change the color on hover */
+  }
+  
+  .cta-button {
+    background-color: #FFD700;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #eb3e05; /* Change the color on hover */
+  }
+  
+  /* Add responsive styles as needed */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar ul {
+      margin-top: 10px;
+      gap: 10px;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+    }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 0 20px;
+    max-width: 600px;
+  }
+  
+  .right-section {
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 150px;
+    height: 150px;
+    background-color:white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    
+    /* box-shadow: 0px 0px 10px rgba(4, 6, 8, 1.2) */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
+  /*  */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .left, .middle, .right {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .h4{
+    font-size: 1rem;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  footer {
+    background-color: white;
+    color: #1b1818;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .copyright {
+    font-size: 0.9em;
+  }
+  
+  /*Social Media  */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin: 0 0px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .social-link:hover {
+    transform: scale(1.2);
+  }
+    
